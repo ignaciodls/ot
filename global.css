@@ -75,6 +75,10 @@ header{
     border: 1px solid rgba(0, 0, 0, .35);
     color: rgba(0, 0, 0, .35);
     font-size: 1.2em;
+
+    /*Flex*/
+    display: flex;
+    align-items: center;
 }
 
 /* First block */ 
