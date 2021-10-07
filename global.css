@@ -570,7 +570,6 @@ header{
     background: #e6e6e6;
     width: 100%;
     padding: 2em 1em;
-    font-size: 1em;
 
     /*Flex*/
     display: flex;
@@ -641,13 +640,20 @@ header{
     font-family: Clemente b;
     /*Flex*/
     display: flex;
-    gap: 1em;
+    gap: .5em;
     align-items: center;
     justify-content: center;
 }
 
+.footer__b2-brand img{
+    width: 1.4em;
+    height: 1.4em;
+}
+
+
 .footer__right{
     padding-top: 2em;
+    padding-bottom: 1em;
     font-size: 2em;
     font-family: Clemente r;
     letter-spacing: .1em;

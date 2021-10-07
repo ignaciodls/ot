@@ -68,6 +68,7 @@
         flex-direction: row;
         align-items: flex-start;
         font-size: .7em;
+        padding: 2em 2em;
     }
 
     .footer__b1, .footer__b2{
@@ -247,6 +248,7 @@
     .footer__b1{
         max-width: 30em;
     }
+
 }
 
 @media (min-width: 1920px){
