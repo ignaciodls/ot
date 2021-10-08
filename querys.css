@@ -19,11 +19,17 @@
     }
 
     .navbar{
-        display: flex;
-        gap: 1em;
-        font-size: .7em;
+        display: block;
     }
 
+    .navbar__menu{
+        font-size: .7em;
+        list-style: none;
+
+        /*Flex*/
+        display: flex;
+        gap: 1em;
+    }
 
     .second-block__icons{
         display: flex;
@@ -97,7 +103,7 @@
         padding-right: 10%;
     }
 
-    .navbar{
+    .navbar__menu{
         gap: 2em;
     }
 
