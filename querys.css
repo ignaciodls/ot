@@ -6,7 +6,7 @@
     }
 }
 
-/* Min Desktop */
+/* 864px */
 
 @media (min-width:864px){
 
@@ -68,6 +68,10 @@
 
     .sixth-block__form-field{
         padding: .5em 1em;
+    }
+
+    .checkbox__text{
+        max-width: 100%;
     }
 
     .footer{
